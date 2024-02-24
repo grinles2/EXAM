@@ -23,7 +23,6 @@ class Server:
         self.response = self.session.get(self.url, headers=self.header)
         return self.response # вернём значение
 
-
     def get_info(self):
         self.get_response()
         if self.response.status_code == 200:
@@ -32,6 +31,8 @@ class Server:
             products = allProduct.find_all("div",class_="col-lg-4 col-md-4 col-sm-6 portfolio-item") #Товар и его инфа
             #print(products)
             return products
+
+
     def get_answer(self):
         self.product = self.get_info() #обращение к get_info за картoчками
         for i in self.product:
@@ -43,7 +44,6 @@ class Server:
                     file.write(f"{title} --->>> {price}\n")
             except:
                 print("Гуляй Вася")
-
 
 obj = Server()
 obj.get_answer()
