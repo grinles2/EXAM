@@ -3,11 +3,11 @@ import lxml
 from bs4 import BeautifulSoup
 
 class Server:
+    url = "https://kups.club/"
     header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}  # Сессия
     session = requests.session()
     def __init__(self, url):
         self.url = url
-        self.url = "https://kups.club/"
         # Сайт
     def get_response(self):
         self.response = self.session.get(self.url, headers=self.header)
