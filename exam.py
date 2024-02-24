@@ -9,8 +9,8 @@ class Server:
 
     for j in range(1, 373):
         print(f"PAGE = {j}")
-        # with open("cashback.txt", "a", encoding="UTF-8") as file:
-        # file.write(f"{j}\n")
+        with open("products.txt", "a", encoding="UTF-8") as file:
+            file.write(f"{j}\n")
         url = f"https://kups.club/?page={j}/"  # Страница магазига
 
 
