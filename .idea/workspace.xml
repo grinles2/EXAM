@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967084b5-403e-4a3f-b854-6f4ba28c2d41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Exam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
+    <list default="true" id="967084b5-403e-4a3f-b854-6f4ba28c2d41" name="Changes" comment="EXAM">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,27 @@
       <option name="presentableId" value="Default" />
       <updated>1708779708109</updated>
     </task>
+    <task id="LOCAL-00001" summary="EXAM">
+      <option name="closed" value="true" />
+      <created>1708788496462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708788496462</updated>
+    </task>
+    <task id="LOCAL-00002" summary="EXAM">
+      <option name="closed" value="true" />
+      <created>1708788630946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708788630946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="EXAM" />
+    <option name="LAST_COMMIT_MESSAGE" value="EXAM" />
   </component>
 </project>
